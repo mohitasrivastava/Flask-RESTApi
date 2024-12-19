@@ -87,3 +87,15 @@ export PYTHONDONTWRITEBYTECODE=1
    ```bash
      Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
    ```
+
+   pip freeze > requirement.txt
+
+   pip install -r requirement.txt
+
+   flask run
+
+   ''' uploading File sytem'''
+   1.upload file from postman to server
+   2.upload a file with a unique filename
+   3.updating filepath in DB with respective entity
+   4.Creating a filepath to read file

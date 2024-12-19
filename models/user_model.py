@@ -34,7 +34,7 @@ class user_model():
             self.cur.execute(qry)
             return make_response({"message":"CREATED_SUCCESSFULLY"},201)
         except Error as e:
-               print(e, "hhghghh")
+               print(e, "error found")
                return "error found"
         
     def add_multiple_users_model(self, data):

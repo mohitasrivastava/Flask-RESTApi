@@ -2,7 +2,7 @@ dbconfig = {
     "host":"localhost",
     "port":"3306",
     "username":"root",
-    "password":"####",
+    "password":"Aadiyogi18@",
     "database":"flask_restapi"
 }
 
